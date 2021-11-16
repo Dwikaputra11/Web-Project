@@ -39,9 +39,17 @@
         }
         if(isset($_POST["submit"])){
             if(insertDailyList($_POST) > 0){
-                echo "add data success";
+                echo "
+                    <script>
+                        alert('Your list added successfull!');
+                    </script>
+                ";
             }else{
-                echo "add data unsuccessfull";
+                echo "
+                    <script>
+                        alert('Your list not added!');
+                    </script>
+                ";
             }
         } 
     ?>

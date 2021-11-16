@@ -539,7 +539,7 @@
     </div>
     <div class="desc3">
         <div class="web-desc">
-            <h1>Make it Easy</h1>
+            <h1>Make yourself Productive</h1>
             <p>Lorem ipsum dolor sit amet, consectetur <br>
             adipiscing elit ut aliquam, <br>
             purus sit amet luctus venenatis</p>
