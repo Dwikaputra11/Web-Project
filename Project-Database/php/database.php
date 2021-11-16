@@ -30,6 +30,28 @@
 
         return mysqli_affected_rows($conn);
     }
+    function updateDailyList($data){
+        global $conn;
+        $id = $data["id"];
+        $user_id = $data["user_id"];
+        $status = htmlspecialchars($data["status"]);
+        $activity_name = htmlspecialchars($data["activity_name"]);
+        $date = htmlspecialchars($data["date"]);
+        $category = htmlspecialchars($data["category"]);
+
+        $query = "UPDATE daily_list SET
+                status = '$status',
+                activity_name = '$activity_name',
+                date = '$date',
+                category = '$category'
+                WHERE id='$id' AND user_id= '$user_id'
+            ";
+        mysqli_query($conn,$query);
+        $check = mysqli_affected_rows($conn);
+        var_dump($check);
+
+        return mysqli_affected_rows($conn);
+    }
     function insertUserAccount($data){
         session_start();
         global $conn;
@@ -101,25 +123,5 @@
             }
         }
         return false;
-    }
-
-    function updateDailyList($data){
-        global $conn;
-        $id = $data["id"];
-        $status = htmlspecialchars($data["status"]);
-        $activity_name = htmlspecialchars($data["activity_name"]);
-        $date = htmlspecialchars($data["date"]);
-        $category = htmlspecialchars($data["category"]);
-
-        $query = "UPDATE daily_list SET
-                status = '$status',
-                activity_name = '$activity_name',
-                date = '$date',
-                category = '$category'
-                WHERE id = $id;
-            ";
-        mysqli_query($conn,$query);
-
-        return mysqli_affected_rows($conn);
     }
 ?>

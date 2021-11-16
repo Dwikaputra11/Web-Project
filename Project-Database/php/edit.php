@@ -41,7 +41,7 @@
         } 
     ?>
     <!-- Navbar -->
-    <div class="navbar">
+    <!-- <div class="navbar">
         <div class="option">
             
             <ul>
@@ -54,7 +54,7 @@
         <div class="title">
             Quick Daily
         </div>
-    </div>
+    </div> -->
     <!-- Akhir Navbar -->
     <div class="background"></div>
     <div class="input">
@@ -181,6 +181,7 @@
         <div class="input-table">
             <form action="" method="post">
                 <input type="hidden" name="id" value="<?= $data["id"]; ?>">
+                <input type="hidden" name="user_id" value="<?= $data["user_id"]; ?>">
                 <table border="0" cellspacing="0" cellpadding="6">
                     <tr>
                         <td><label for="nameInput">Name of Activity</label></td>
