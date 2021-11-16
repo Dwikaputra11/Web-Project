@@ -1,0 +1,117 @@
+body {
+  height: 1024px;
+  background-color: #1464ff;
+  position: relative;
+}
+/* CONTENT */
+.content {
+  position: relative;
+  height: 550px;
+}
+/* PROFILE  */
+.profile {
+  margin-left: 10px;
+  width: 50%;
+  color: white;
+}
+.image {
+  background-image: url(../../Image/Almamater_edit.jpg);
+  background-position: 0, -5px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  margin-left: 40px;
+}
+.desc {
+  width: fit-content;
+  margin-left: 25%;
+}
+a {
+  text-decoration: none;
+}
+.buttonprofile {
+  margin-top: 50px;
+  width: 170px;
+  height: 43px;
+  background: #ffdc23;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 0px #000000);
+  margin-left: 25%;
+  border: 1px solid black;
+}
+.seeprofile {
+  color: #000000;
+  font-size: 20px;
+  line-height: 41px;
+}
+.buttonprofile:hover {
+  filter: drop-shadow(7px 12px 0px #000000);
+  transform: translate(-2px, -7px);
+  transition: 300ms;
+}
+/* END PROFILE */
+
+/* LINE */
+.line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 500px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+/* END LINE */
+
+/* TASK */
+.task {
+  color: white;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  margin-left: 55%;
+}
+.task .first {
+  font-size: 27px;
+}
+.task .second {
+  font-size: 23px;
+}
+.checktask {
+  color: #000000;
+  font-size: 16px;
+  line-height: 41px;
+}
+.buttontask {
+  margin-top: 50px;
+  width: 170px;
+  height: 43px;
+  background: #ffdc23;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 0px #000000);
+  margin-left: 0;
+  border: 1px solid black;
+}
+.buttontask:hover {
+  filter: drop-shadow(7px 12px 0px #000000);
+  transform: translate(-2px, -7px);
+  transition: 300ms;
+}
+/* END TASK */
+/* EMD CONTENT */
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+/* END FOOTER */

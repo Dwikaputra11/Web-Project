@@ -1,0 +1,65 @@
+body {
+  background-color: #1464ff;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 391px;
+  background-image: url(../../Image/dust.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron .hello {
+  /*display: inline-block;*/
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  /*vertical-align: middle;
+    line-height: normal;*/
+}
+.jumbotron .desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /*display: inline-block;*/
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/*Contect*/
+.content {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  height: 400px;
+  width: 395px;
+  margin: auto;
+  color: black;
+  border-radius: 10px;
+}
+.table {
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.content table {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+/* END FOOTER */

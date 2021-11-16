@@ -1,0 +1,44 @@
+body {
+  background: #ff1bcd;
+  height: 1200px;
+}
+
+/*NavBar*/
+.navbar .navList {
+  position: absolute;
+  right: 0;
+}
+/*End Navbar*/
+
+/*Form*/
+.form {
+  border-radius: 20px;
+  width: 497px;
+  height: 880px;
+  background: white;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.form .login {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+}
+.gender {
+  margin-top: -10px;
+}
+.form table {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 20px;
+}
+.btn {
+  margin: auto;
+  margin-top: 40px;
+}
+/*End Form*/

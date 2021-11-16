@@ -1,0 +1,22 @@
+/* Array */
+body{
+    height: 100vh;
+    background-image: url(../image/triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+.container{
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(152, 70, 228);
+}
+.container tr{
+    border-bottom: 1px solid black;
+}
+.container td{
+    border-right: 1px solid black;
+}

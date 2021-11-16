@@ -1,0 +1,15 @@
+/* Percabangan */
+body{
+    height: 100vh;
+    background-image: url(../image/triangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+.container{
+    color: white;
+    border-radius: 10px;
+    height: 180px;
+    width: fit-content;
+    background-color: rgb(152, 70, 228);
+}

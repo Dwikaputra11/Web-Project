@@ -1,0 +1,15 @@
+/* Perulangan */
+body {
+  height: 100vh;
+  background-image: url(../image/triangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  color: white;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+  background-color: rgb(152, 70, 228);
+}

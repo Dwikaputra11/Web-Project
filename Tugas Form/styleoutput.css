@@ -1,0 +1,147 @@
+body {
+  background-color: #ff1bcd;
+  height: 1500px;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 391px;
+  background-image: url(img/gradienta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron .hello {
+  /*display: inline-block;*/
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  /*vertical-align: middle;
+    line-height: normal;*/
+}
+.jumbotron .desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /*display: inline-block;*/
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/*Contect*/
+.content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.rectangle {
+  height: 600px;
+  width: 20px;
+  background-color: white;
+  margin: auto;
+}
+.circle1 {
+  /*position: absolute;
+	top: -10px;
+	left: 48.93%;
+	right: 50%;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: -10px;
+  margin-top: 60px;
+}
+.circle2 {
+  /*position: absolute;
+	top: -10px;
+	left: 48.93%;
+	right: 50%;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: -480px;
+}
+.circle3 {
+  /*position: absolute;
+	top: -10px;
+	left: 48.93%;
+	right: 50%;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 120px;
+}
+.circle4 {
+  /*position: absolute;
+	top: -10px;
+	left: 48.93%;
+	right: 50%;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 120px;
+}
+.circle5 {
+  /*position: absolute;
+	top: -10px;
+	left: 48.93%;
+	right: 50%;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 125px;
+}
+
+.email {
+  position: absolute;
+  top: 0px;
+  left: 550px;
+}
+.email p {
+  color: white;
+}
+.address {
+  position: absolute;
+  right: 300px;
+  top: 140px;
+}
+.address p {
+  color: white;
+}
+.gender {
+  position: absolute;
+  top: 290px;
+  left: 630px;
+}
+.gender p {
+  color: white;
+}
+.subject {
+  position: absolute;
+  top: 440px;
+  right: 530px;
+}
+.subject p {
+  color: white;
+}
+.end {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
