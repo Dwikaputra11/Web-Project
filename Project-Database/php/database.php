@@ -106,6 +106,12 @@
         return mysqli_affected_rows($conn);
     }
 
+    function deleteDailyList($id){
+        global $conn;
+        mysqli_query($conn,"DELETE FROM daily_list WHERE id = '$id'");
+        return mysqli_affected_rows($conn);
+    }
+
     function loginUser($data){
         global $conn;
 

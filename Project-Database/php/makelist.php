@@ -15,7 +15,7 @@
     <div class="navbar">
         <div class="option">
             <ul>
-                <li><a href="login.php" class="nav-link">Log Out</a></li>
+                <li><a href="logout.php" class="nav-link">Log Out</a></li>
                 <li><a href="#" class="nav-link">Profile</a></li>
                 <li><a href="makelist.php" class="nav-link">Daily list</a></li>
                 <li><a href="dashboard.php" class="nav-link">Home</a></li>

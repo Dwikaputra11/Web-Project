@@ -41,7 +41,7 @@
         } 
     ?>
     <!-- Navbar -->
-    <!-- <div class="navbar">
+    <div class="navbar">
         <div class="option">
             
             <ul>
@@ -54,7 +54,7 @@
         <div class="title">
             Quick Daily
         </div>
-    </div> -->
+    </div>
     <!-- Akhir Navbar -->
     <div class="background"></div>
     <div class="input">

@@ -19,13 +19,6 @@
         $database = "prakweb_daily_list";
         $conn = mysqli_connect($hostname,$user,$pass,$database);
         if(isset($_POST["submit"])){
-            if(empty($_POST["email"]) || empty($_POST["password"])){
-                echo "
-                    <script>
-                        alert('fill the form');
-                    </script>
-                ";
-            }
             $email = $_POST["email"];
             $password = $_POST["password"];
 
@@ -149,9 +142,9 @@
                 <form action="" method="post">
                     <table border="0" cellspacing="0" cellpadding="10">
                         <tr><td><label for="email">Name</label></td></tr>
-                        <tr><td><input type="text" name="email" id="email"></td></tr>
+                        <tr><td><input type="text" name="email" id="email" required></td></tr>
                         <tr><td><label for="password">Password</label></td></tr>
-                        <tr><td><input type="password" name="password" id="password"></td></tr>
+                        <tr><td><input type="password" name="password" id="password" required></td></tr>
                         <tr><td></td></tr>
                         <tr><td></td></tr>
                         <tr><td></td></tr>
