@@ -42,20 +42,6 @@
             $showName = true;
         }
         ?>
-    <?php 
-        // if(insertUserAccount($_POST) > 0){
-        //     echo "
-        //     <script>
-        //         alert('add data successfull');
-        //     </script>";
-        // }else{
-        //     echo "
-        //     <script>
-        //         alert('add data unsuccessful');
-        //     </script>
-        //     ";
-        // }
-    ?>
     <!-- Jumbotron -->
     <div class="jumbotron">
          <div class="image">

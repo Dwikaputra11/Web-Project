@@ -38,7 +38,6 @@
             exit;
         }
         if(isset($_POST["submit"])){
-            // var_dump($_POST);
             if(insertDailyList($_POST) > 0){
                 echo "add data success";
             }else{
@@ -238,7 +237,6 @@
                 $i = 1;
                 $query = "SELECT * FROM daily_list WHERE user_id = $user_id";
                 $daily_list = showDailyList($query);
-                // var_dump($daily_list);
             ?>
             <?php foreach($daily_list as $data): ?>
             <tr>
