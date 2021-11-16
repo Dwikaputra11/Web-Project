@@ -1,0 +1,193 @@
+html {
+  font-family: "Hind Siliguri", sans-serif;
+}
+/* Navbar */
+.navbar {
+  height: 55px;
+  background-color: #b2e3ff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.navbar .title {
+  position: absolute;
+  top: 10%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #639ad6;
+  margin-left: 10px;
+}
+.navbar .option ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.navbar .option .nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #639ad6;
+}
+.navbar .option ul li {
+  display: block;
+  float: right;
+  margin-right: 20px;
+  padding-right: 10px;
+}
+.navbar .option .nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid white;
+  width: 50%;
+  margin: auto;
+}
+.navbar .option ul li:hover {
+  transform: translate(0, -5px);
+  transition: 0.5s;
+}
+/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 516px;
+  margin-top: 55px;
+  background: linear-gradient(180deg, #b2e3ff 0%, #fce989 100%);
+}
+.jumbotron .image {
+  float: right;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+.jumbotron .greeting {
+  position: relative;
+  top: 40%;
+  margin-left: 40px;
+}
+.jumbotron .greeting h1 {
+  font-size: 64px;
+}
+.jumbotron .greeting p {
+  font-size: 36px;
+}
+/* Akhir Jumbotron */
+
+/* Content */
+/* Description 1 */
+.desc1 {
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  height: 503px;
+  background-color: #fce989;
+}
+.desc1 .image {
+  position: absolute;
+  top: 30%;
+  margin-left: 100px;
+}
+.desc1 .web-desc {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  color: white;
+}
+.desc1 .web-desc h1 {
+  font-size: 64px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+.desc1 .web-desc p {
+  font-size: 18px;
+}
+/* Akhir Description 1 */
+/* Description 2 */
+.desc2 {
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  height: 503px;
+  background-color: #fce989;
+}
+.desc2 .image {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+.desc2 .web-desc {
+  position: absolute;
+  top: 50%;
+  color: white;
+  margin-left: 100px;
+}
+.desc2 .web-desc h1 {
+  font-size: 64px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+.desc2 .web-desc p {
+  font-size: 18px;
+}
+/* Akhir Description 2 */
+/* Description 3 */
+.desc3 {
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(180deg, #fce989 0%, #ffd6a6 100%);
+}
+.desc3 .image {
+  position: absolute;
+  top: 20%;
+  margin-left: 150px;
+}
+.desc3 .web-desc {
+  position: absolute;
+  right: 20%;
+  top: 40%;
+  color: white;
+}
+.desc3 .web-desc h1 {
+  font-size: 64px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+.desc3 .web-desc p {
+  font-size: 18px;
+}
+/* Akhir Description 3 */
+/* Next Button */
+.next-button {
+  width: 100%;
+  height: 503px;
+  position: relative;
+  background-color: #ffd6a6;
+}
+.next-button h1 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 64px;
+  color: white;
+}
+.next-button a {
+  text-decoration: none;
+  color: black;
+}
+.next-button .button {
+  margin: auto;
+  background-color: #fffcb3;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 225px;
+  height: 51px;
+}
+.next-button .button p {
+  line-height: 51px;
+  font-size: 24px;
+}
+/* Akhir Next Button */
+/* Akhir Content */

@@ -1,0 +1,63 @@
+html {
+  background-color: #bdff95;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.image-desc {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 3%;
+  position: fixed;
+}
+
+.signup-rec {
+  width: 468px;
+  height: 970px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.signup-rec .signup-title {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+  color: #000000;
+}
+.signup-rec .signup-input {
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  margin: auto;
+}
+.signup-rec a {
+  text-decoration: none;
+  color: #3cbfd4;
+}
+.signup-rec .btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.signup-rec .btn {
+  width: 381px;
+  height: 50.33px;
+  background: linear-gradient(90deg, #e0ff66 0%, #47cfcf 100%);
+  box-sizing: border-box;
+}
+.signup-rec .signup-input input {
+  display: block;
+  content: "";
+  width: 100%;
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+}

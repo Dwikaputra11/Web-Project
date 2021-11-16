@@ -1,0 +1,72 @@
+html {
+  background-color: #bdff95;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.image {
+  height: fit-content;
+  width: fit-content;
+  float: right;
+  margin-top: 3%;
+  margin-right: 1%;
+}
+.login .input-login input {
+  display: block;
+  content: "";
+  width: 90%;
+  border: 1px solid white;
+  border-bottom: 1px solid black;
+}
+.login {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+.login .input-login {
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.login .welcome {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+}
+.login .login-text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 5px;
+  text-align: center;
+}
+.login .login-rec {
+  width: 451px;
+  height: 565px;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.login .login-rec a {
+  text-decoration: none;
+  color: #3cbfd4;
+}
+.login .login-rec .btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.login .btn {
+  width: 381px;
+  height: 50.33px;
+  background: linear-gradient(90deg, #e0ff66 0%, #47cfcf 100%);
+  box-sizing: border-box;
+}
