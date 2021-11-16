@@ -46,14 +46,14 @@
         if(mysqli_fetch_assoc($query_user)){
             echo"
                 <script>
-                    alert('The username already exist')
+                    alert('The username already exist');
                 </script>
             ";
             return false;
         }else if(mysqli_fetch_assoc($query_email)){
             echo"
                 <script>
-                    alert('The email already exist')
+                    alert('The email already exist');
                 </script>
             ";
             return false;
@@ -62,7 +62,7 @@
         if($valpassword !== $password){
             echo "
                 <script>
-                    alert('No Matching Password')
+                    alert('No Matching Password');
                 </script>
             ";
             return false;
@@ -101,5 +101,25 @@
             }
         }
         return false;
+    }
+
+    function updateDailyList($data){
+        global $conn;
+        $id = $data["id"];
+        $status = htmlspecialchars($data["status"]);
+        $activity_name = htmlspecialchars($data["activity_name"]);
+        $date = htmlspecialchars($data["date"]);
+        $category = htmlspecialchars($data["category"]);
+
+        $query = "UPDATE daily_list SET
+                status = '$status',
+                activity_name = '$activity_name',
+                date = '$date',
+                category = '$category'
+                WHERE id = $id;
+            ";
+        mysqli_query($conn,$query);
+
+        return mysqli_affected_rows($conn);
     }
 ?>

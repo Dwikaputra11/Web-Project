@@ -247,7 +247,8 @@
                 <td><center><?= $data["activity_name"]?></center></td>
                 <td><center><?= $data["date"]?></center></td>
                 <td><center><?= $data["category"]?></center></td>
-                <td><center><a href="edit.php" class="edit">Edit</a> | <a href="delete.php" class="delete">Delete</a></center></td>
+                <td><center><a href="edit.php?id=<?= $data["id"];?>" class="edit" onclick="return confirm('Are you sure ?');">Edit</a> 
+                | <a href="delete.php?id=<?= $data["id"];?>" class="delete" onclick="return confirm('Are you sure ?');">Delete</a></center></td>
             </tr>
             <?php $i++ ?>
             <?php endforeach; ?>
